@@ -4,15 +4,11 @@
     "anyOf": [
       {
         "field": "type",
-        "like": "Microsoft.HDInsight/*"
+        "like": "Microsoft.KeyVault/*"
       },
       {
         "field": "type",
-        "like": "Microsoft.ContainerService/*"
-      },
-      {
-        "field": "type",
-        "like": "Microsoft.AppService/*"
+        "like": "Microsoft.Storage/*"
       }
     ]
   },

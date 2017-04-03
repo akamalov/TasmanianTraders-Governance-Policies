@@ -19,6 +19,9 @@ $polList=@()
 $polList += ,@("ES-Approved-Regions","Only allow approved regions", "$PSScriptRoot\..\policydef\ES-Approved-Regions.json")
 $polList += ,@("ES-Approved-Storage-SKUs","Only allow approved storage SKUs", "$PSScriptRoot\..\policydef\ES-Approved-Storage-SKUs.json")
 $polList += ,@("ES-Require-Storage-Encryption","Require Storage Encryption", "$PSScriptRoot\..\policydef\ES-Require-Storage-Encryption.json")
+$polList += ,@("ES-Approved-Services","Only allow approved services", "$PSScriptRoot\..\policydef\ES-Approved-Services.json.json")
+$polList += ,@("ES-Audited-Services","Enable Auditing on Services", "$PSScriptRoot\..\policydef\ES-Audited-Services.json")
+$polList += ,@("ES-Require-Storage-Encryption","Require Storage Encryption", "$PSScriptRoot\..\policydef\ES-Require-Storage-Encryption.json")
 
 Write-Output "*** Applying policies to subscription : $subName ($subId)"
 foreach ($polItem in $polList.GetEnumerator()) {

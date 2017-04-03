@@ -13,15 +13,27 @@
         },
         {
           "field": "type",
-          "like": "Microsoft.AppService/*"
-        },
-        {
-          "field": "type",
           "like": "Microsoft.Web/*"
         },
         {
           "field": "type",
           "like": "Microsoft.insights/*"
+        },
+        {
+          "field": "type",
+          "like": "Microsoft.Compute/*"
+        },
+        {
+          "field": "type",
+          "like": "Microsoft.Logic/*"
+        },
+        {
+          "field": "type",
+          "like": "Microsoft.KeyVault/*"
+        },
+        {
+          "field": "type",
+          "like": "Microsoft.Network/*"
         }
       ]
     }
