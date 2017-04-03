@@ -6,9 +6,7 @@ Tasmanian Traders is a [fictional Microsoft company](https://en.wikipedia.org/wi
 
 ## Automating Azure Resource Manager Policy Management
 The PowerShell scripts, automation runbooks and policy json files are focused on automating [Azure Resource Manager Policies](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy). The repo folders contain the following:
-### [/policydef](https://github.com/karlkuhnhausen/azure-scaffold/tree/master/policydef)
+### /policydef
 A set of sample json files that define sample policies. [Other examples](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy#policy-definition-examples) can be found on azure.microsoft.com. Some of which I have cribbed here.
-### [/scripts](https://github.com/karlkuhnhausen/azure-scaffold/tree/master/scripts)
+### /scripts
 Sample PowerShell scripts adapted to run via deployment tools (like Visual Studio Team Services) which will apply the policy definition and policy assignment cmdlets.
-## More Reading
-* For a full discussion of the Azure Enterprise Scaffold see [Azure Enterprise Scaffold - Prescriptive Subscription Governance](https://azure.microsoft.com/en-us/documentation/articles/resource-manager-subscription-governance/).
