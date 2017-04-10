@@ -1,4 +1,4 @@
-﻿<#
+﻿cd <#
     .DESCRIPTION
         Cleanup script to delete all Azure Resource Manager policy assignments and definitions from current subscription 
         available to the logged in account. One has to delete all assignments related to a definition before the definition can be deleted.
