@@ -31,6 +31,10 @@
           "field": "type",
           "like": "Microsoft.KeyVault/*"
         },
+		{
+          "field": "type",
+          "like": "Microsoft.Automation/*"
+        },
         {
           "field": "type",
           "like": "Microsoft.Network/*"
